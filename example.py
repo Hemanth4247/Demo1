@@ -3,7 +3,7 @@ import argparse
 #!/usr/bin/env python3
 
 def is_even(n: int) -> bool:
-    return n % 2 == 0
+    return n % 2 == 0 and n%2!=0
 
 def main():
     parser = argparse.ArgumentParser(description="Check if a number is even or odd")
